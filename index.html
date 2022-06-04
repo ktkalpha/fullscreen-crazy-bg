@@ -1,0 +1,6 @@
+<!doctype html><html lang=en><meta charset=UTF-8><meta content="IE=edge"http-equiv=X-UA-Compatible><meta content="width=device-width,initial-scale=1"name=viewport><title>Crazy Background(Fullscreen F11)</title><style>*{padding:0;margin:0;overflow:hidden;-moz-user-select:-moz-none;-khtml-user-select:none;-webkit-user-select:none;-ms-user-select:none;user-select:none}img{height:100vh;width:100vw;background-size:cover}.rotate{scale:1;padding:0;margin:0;overflow:hidden;background-color:#cc2a41;animation:spin 1s infinite}@keyframes spin{0%{filter:hue-rotate(0);transform:rotate(0) scale(1) translate(10px,0)}50%{filter:hue-rotate(180deg);transform:rotate(180deg) scale(.9) translate(0,10px)}100%{filter:hue-rotate(360deg);transform:rotate(360deg) scale(1) translate(10px,-10px)}}@keyframes size{0%{transform:scale(1)}100%{transform:scale(1.5)}}</style><img alt=""draggable=false onclick=crazy() onkeydown=crazy() src=asset/wallpaper.png style=max-width:100vw;max-height:100vh;margin:auto tabindex=-1><script>// focus img
+        // document.querySelector('img').focus();
+        let rot = 0
+        function crazy() {
+            document.querySelector("img").className = "rotate";
+        }</script>
